@@ -1,0 +1,23 @@
+
+Q1:if 18+ age Then salary grather than 2000 and you can "Biye korte parba",other 2000 less than "age 
+beton baruk".if age less 18 than "age boro ho"
+
+let age = 18; 
+let job = true;
+let salary = 2000;
+if (age >=18 ){ 
+         if(job){
+                if(salary >= 2000){
+                    console.log("Biye Korte Parbe");     
+                    }
+                 else{
+                    console.log("Age beton baruk");
+                        }
+                  }
+          else{
+                 console.log("Age job koro");
+                }
+           }
+else{
+    console.log("age boro ho")
+}
