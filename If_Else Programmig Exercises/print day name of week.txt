@@ -1,0 +1,21 @@
+// Define a day number (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
+let dayNumber = 6; // For example, 3 corresponds to Wednesday
+
+// Print the day name using else if
+if (dayNumber === 0) {
+    console.log("Today is Sunday");
+} else if (dayNumber === 1) {
+    console.log("Today is Monday");
+} else if (dayNumber === 2) {
+    console.log("Today is Tuesday");
+} else if (dayNumber === 3) {
+    console.log("Today is Wednesday");
+} else if (dayNumber === 4) {
+    console.log("Today is Thursday");
+} else if (dayNumber === 5) {
+    console.log("Today is Friday");
+} else if (dayNumber === 6) {
+    console.log("Today is Saturday");
+} else {
+    console.log("Invalid day number");
+}
