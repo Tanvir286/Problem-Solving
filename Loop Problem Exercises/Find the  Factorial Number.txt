@@ -1,0 +1,14 @@
+let number = 43
+let count = 0
+
+ for(i=2;i<number;i++){
+
+	if(number % i == 0){
+    	count++;
+    	break;}
+ }
+
+ if(count == 0){
+	console.log("prime number"); }
+ else{
+	console.log("Not prime number!!! because divided by" + count +"times");}

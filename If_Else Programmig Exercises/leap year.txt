@@ -6,5 +6,6 @@ if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
 }
 
 //A year is a leap year if it is divisible by 4 (year % 4 === 0).
+
 //However, a year is not a leap year if it is divisible by 100 (year % 100 === 0), 
 //unless it is also divisible by 400 (year % 400 === 0).
