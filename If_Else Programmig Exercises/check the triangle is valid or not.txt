@@ -1,12 +1,9 @@
-// Define a character
-let char = 'B';
+//A triangle is valid if the sum of its two sides is greater than the third side.
+let a = 10;
+let b = 14;
+let c = 12;
 
-// Convert the character to lowercase (to handle both uppercase and lowercase)
-char = char.toLowerCase();
-
-// Check if it's a vowel or a consonant
-if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
-    console.log(char + ' is a vowel.');
-} else {
-    console.log(char + ' is a consonant.');
-}
+if( ( a + b > c) &&  ( a + c > b) && ( b + c > a) ){
+	console.log("Triangle is valid!!");}
+else{
+	console.log("Condition not fullfill");}
